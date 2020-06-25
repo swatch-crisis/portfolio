@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 1mm;
+}
+H1 { color: black;
+    text-align: centre;
+       
+     }
+html{
+    background:lavender;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover; 
+    font-family: candara ;
+}
+body{
+    color: black;
+    
+}
+/*
+ol {
+    list-style-type: bold;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    display: block
+    background-color: black;
+}
+ol li {
+    float: left;
+}
+*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: None;
+}
+
+li a:hover {
+    background-color: burlywood;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;}
+  
+  ul.topnav li {float: right;}
+  
+  ul.topnav li a {
+    display: block;
+    color: papayawhip;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;}  
+
+    
+
+.topnav li a.active {
+    background-color: goldenrod;
+    color: white;
+}
+/*ul.topnav li a:hover:not(.active) {background-color: aqua;} */
+  
+  
+@media screen and (max-width: 600px) { 
+    ul.topnav li {float: none;}
+  }
+
+.card {
+    background-color: oldlace;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 2px 2px 2px 2px lightgrey;
+}
+ .card:hover{
+    box-shadow: 2px 2px 2px 2px grey}
+.image {
+    width: 75%;
+    height: 50%;
+    padding: 0px;
+    object-position: center;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+
+.footer {
+    padding: 15px 20px;
+    text-align: center;
+    background:#333;
+    margin-top: 20px;
+    color:white;
+  }
+  .footer a {
+      color: papayawhip;
+  }
